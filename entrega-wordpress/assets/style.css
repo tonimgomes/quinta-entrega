@@ -1,0 +1,169 @@
+/*
+Theme Name: Entrega-wordpress
+Description: Site Para o curso de Wp
+Author: Antônio
+Version: 1.0
+*/
+
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+/* HEADER NAVBAR */
+.nav-wrapper{
+	background-color: rgb(204, 38, 38);
+	font-family: 'Josefin Sans', sans-serif;
+}
+#logo {
+    max-height: 90%;
+}
+
+/* DIV HEADER */
+
+.header{
+	height: 500px;
+	background: url(assets/images/cinema.jpg) center top;
+	padding-top:  2rem;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.header h1 a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lobster Two', cursive;
+
+}
+
+.header .info{
+	margin: 0 auto;
+	width: 860px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header .custom-button {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: white;
+	color: tomato;
+	border-radius: 15px;
+	margin: 0 auto;
+	width: 200px;
+}
+
+.background{
+	margin-top: 0 auto;
+}
+
+/* DIV WRAP */
+
+.wrap{
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+}
+
+/* INDEX */
+.blog{
+	padding-top: 2rem;
+	background-color: rgb(243, 243, 243)
+}
+
+.blog h1{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.card{
+	margin: 0 0 3rem 0;
+}
+.card h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.card p{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.card img{
+	height: 300px;
+}
+.box-lists-filmes{
+	padding-bottom: 3rem;
+}
+/* <img src="<?php echo get_template_directory_uri(); ?>/assets/images/csgo-png-logo.png" id="logo" class="brand-logo center">*/
+/*
+<div class="blog">
+    <div class="wrap">
+        <div class="box-lists-filmes">
+        <h1>Filmes</h1>
+            <div class="col s12 m7" class="filme1">
+                <div class="card horizontal">
+                    <div class="card-image">
+                     <img src="https://img.elo7.com.br/product/zoom/26A6109/painel-de-festa-vingadores-ultimato-marvel-avengers-endgame-painel-de-festa-vingadores-ultimato-deco.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                        <h3>Vingadores Ultimato</h3>
+                        <p>Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <div class="card horizontal">
+                    <div class="card-image">
+                     <img src="https://cosmonerd.com.br//uploads/2017/05/corrafilme-imagem01.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                        <h3>Corra</h3>
+                        <p>Um jovem fotógrafo descobre um segredo sombrio quando conhece os pais aparentemente amigáveis da sua namorada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php 
+      endforeach; endif;
+      ?>
+        <div class="box-lists-series">
+        <h1>Séries</h1>
+            <div class="col s12 m7">
+                <div class="card horizontal">
+                    <div class="card-image">
+                     <img src="https://super.abril.com.br/wp-content/uploads/2020/06/18-06_Dark_SITE.jpg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                        <h3>Dark</h3>
+                        <p>Dark é uma websérie alemã de drama, suspense e ficção científica criada por Baran bo Odar e Jantje Friese e distribuída pela Netflix. A série se passa na cidade fictícia de Winden, na Alemanha, que sofre o impacto do desaparecimento de uma criança, que expõe os segredos e as conexões ocultas entre quatro famílias locais, enquanto elas lentamente desvendam uma sinistra conspiração de viagem no tempo que abrange várias gerações.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <div class="card horizontal">
+                    <div class="card-image">
+                     <img src="https://i0.wp.com/mixdeseries.com.br/wp-content/uploads/2019/05/The-Office-NBC-1024x576.jpg?fit=1024%2C576&ssl=1">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                        <h3>The Office</h3>
+                        <p>A trama de The Office acompanha o dia-a-dia dos funcionários da filial de Scranton da empresa de papel fictícia Dunder Mifflin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+*/
